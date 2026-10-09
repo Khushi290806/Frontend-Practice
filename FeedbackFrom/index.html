@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <center>
+      <h1>Website Feedback Form</h1>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" />
+        <br /><br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+        <br /><br />
+        <p>How did you hear about me?</p>
+        <input type="radio" name="source" value="friends" /> Friends<br />
+        <input type="radio" name="source" value="social" /> Social Media<br />
+        <input type="radio" name="source" value="ads" /> Advertisements<br />
+        <br />
+        <p>What features of my website do you like?</p>
+        <input type="checkbox" name="features" value="design" /> Design<br />
+        <input type="checkbox" name="features" value="content" /> Content<br />
+        <input type="checkbox" name="features" value="navigation" /> Easy
+        Navigation<br />
+        <br />
+        <label for="rating">Rate my website (1-5):</label>
+        <select id="rating" name="rating">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+        <br /><br />
+        <textarea placeholder="Additional comments"></textarea>
+        <br /><br />
+        <button type="submit">Submit</button>
+      </form>
+    </center>
+  </body>
+</html>
